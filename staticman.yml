@@ -73,7 +73,7 @@ posts:
   format: "frontmatter"
   moderation: true
   name: "Linuxo blog"
-  path: "content/post"
+  path: "content/posts"
   filename: "{fields.slug}"
   requiredFields: ["title", "body"]
   transforms:
