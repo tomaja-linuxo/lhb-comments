@@ -11,7 +11,7 @@ comments:
 
   # When allowedOrigins is defined, only requests sent from one of the domains
   # listed will be accepted.
-  allowedOrigins: ["localhost", "blog.linuxo.com"]
+  allowedOrigins: ["localhost:1313", "blog.linuxo.com"]
 
   # (*) REQUIRED
   #
@@ -60,7 +60,7 @@ comments:
 
 posts:
   allowedFields: ["title", "body"]
-  allowedOrigins: ["localhost", "blog.linuxo.com"]
+  allowedOrigins: ["localhost:1313", "blog.linuxo.com"]
   branch: "master"
   generatedFields:
     date:
